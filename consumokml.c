@@ -3,17 +3,17 @@
 
 int main () {
     float d, l, kml;
-    scanf("%d %d", &d, &l);
+    scanf("%f %f", &d, &l);
     kml = (d / l);
-    if (kml < 8.f)
+    if (kml < 8)
     {
         printf("Venda o carro!");
     }
-    if (kml >= 8.f && kml <= 12.f)
+    if (kml >= 8 && kml <= 12)
     {
         printf("Economico!");
     }
-    if (kml > 12.f)
+    if (kml > 12)
     {
         printf("Super economico!");
     }

@@ -9,7 +9,7 @@ int main () {
 
     if (a == b || a == c || b == c)
     {
-        printf("Há números iguais\n");
+        printf("Ha numeros iguais\n");
     }
     if (a > b && a > c)
     {
