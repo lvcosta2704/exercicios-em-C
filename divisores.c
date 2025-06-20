@@ -1,17 +1,14 @@
 #include <stdio.h>
 
 int main () {
-    int num;
-    scanf("%d", &num);
-
-    for (int i = 1; i <= num; i++)
+  long long int x;
+  scanf("%lld", &x);
+  for (long long int i = 1; i <= x; i++)
+  {
+    if (x % i == 0)
     {
-        int d = 1;
-        if (num % i == 0)
-        {
-            printf("%d ", i);
-        }
-        
+      printf("%lld ", i);
     }
-    
+  }
+  
 }
